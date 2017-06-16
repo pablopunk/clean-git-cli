@@ -1,0 +1,21 @@
+{
+  "name": "clean-git-cli",
+  "version": "1.0.0",
+  "description": "Find all git repos that are not 'clean' from your command line",
+  "bin": {
+    "clean-git": "index.js"
+  },
+  "author": "Pablo Varela",
+  "license": "MIT",
+  "dependencies": {
+    "args": "^3.0.2",
+    "clean-git": "^2.0.0"
+  },
+  "keywords": [
+    "git",
+    "repos",
+    "find",
+    "cli",
+    "command"
+  ]
+}
