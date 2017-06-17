@@ -1,6 +1,6 @@
 {
   "name": "clean-git-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find all git repos that are not 'clean' from your command line",
   "bin": {
     "clean-git": "index.js"
