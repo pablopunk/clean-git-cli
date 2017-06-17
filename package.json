@@ -17,5 +17,13 @@
     "find",
     "cli",
     "command"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablopunk/clean-git-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pablopunk/clean-git-cli/issues"
+  },
+  "homepage": "https://github.com/pablopunk/clean-git-cli#readme"
 }
