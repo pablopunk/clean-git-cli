@@ -10,7 +10,10 @@
   "contributors": [
     "Pablo Varela <pablovarela182@gmail.com>"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "args": "^3.0.7",
+    "clean-git": "^2.0.1"
+  },
   "devDependencies": {
     "standard": "*"
   },
