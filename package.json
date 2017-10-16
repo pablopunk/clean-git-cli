@@ -1,29 +1,43 @@
 {
   "name": "clean-git-cli",
-  "version": "1.0.1",
   "description": "Find all git repos that are not 'clean' from your command line",
-  "bin": {
-    "clean-git": "index.js"
+  "version": "1.0.0",
+  "author": "Pablo Varela <pablovarela182@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/pablopunk/clean-git-cli/issues",
+    "email": "pablovarela182@gmail.com"
   },
-  "author": "Pablo Varela",
-  "license": "MIT",
-  "dependencies": {
-    "args": "^3.0.2",
-    "clean-git": "^2.0.0"
+  "contributors": [
+    "Pablo Varela <pablovarela182@gmail.com>"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "*"
   },
+  "homepage": "https://github.com/pablopunk/clean-git-cli",
   "keywords": [
     "git",
     "repos",
+    "miny",
     "find",
     "cli",
     "command"
   ],
+  "license": "MIT",
+  "main": "index.js",
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "html",
+      "text"
+    ]
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pablopunk/clean-git-cli.git"
+    "url": "https://github.com/pablopunk/clean-git-cli"
   },
-  "bugs": {
-    "url": "https://github.com/pablopunk/clean-git-cli/issues"
-  },
-  "homepage": "https://github.com/pablopunk/clean-git-cli#readme"
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint"
+  }
 }
