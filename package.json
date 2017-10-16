@@ -1,7 +1,7 @@
 {
   "name": "clean-git-cli",
   "description": "Find all git repos that are not 'clean' from your command line",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Pablo Varela <pablovarela182@gmail.com>",
   "bugs": {
     "url": "https://github.com/pablopunk/clean-git-cli/issues",
