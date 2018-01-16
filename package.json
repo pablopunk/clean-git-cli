@@ -28,6 +28,9 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "bin": {
+    "clean-git": "index.js"
+  },
   "nyc": {
     "reporter": [
       "lcov",
